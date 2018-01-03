@@ -23,10 +23,6 @@
         ]
     },
     "include": [
-        "./js/*.ts",
-        "./js/**/*.ts",
-        "./js/setup/extend-kotlin-array.ts",
-        "./js/typings/project-typings.d.ts",
         "./node_modules/@types/**/*.d.ts",
         "./node_modules/typescript/lib/lib.es6.d.ts",
         "./node_modules/typescript/lib/lib.es2016.d.ts",
