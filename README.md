@@ -4,11 +4,27 @@ Kotlin 1.2.* multi-platform experiments
 
 Locations
 =========
-Shared/multiplatform code: ./src
-JS-specific code: ./src-js
-Java-specific code: ./src-jvm
-Typescript code (consumes the JS-specific code's output): ./ts
+Source code
+-----------
+*   Shared/multiplatform code
+    *   ./src
+*   JS-specific code
+    *   ./src-js
+*   Java-specific code
+    *   ./src-jvm
+*   Typescript code (consumes the JS-specific code's output)
+    *   ./ts
 
+Build outputs
+-------------
+*   Final Kotlin build output
+    *   ./build
+*   Final JS module build output (importable as module)
+    *   ./src-js/build
+*   Final Java module build output - importable as module (NOTE: confirm this)
+    *   ./src-jvm/build/libs/src-jvm.jar
+*   Final TS module build output (runnable)
+    *   ./build-js/src-js/build/js/index.js
 
 Installation
 ============
