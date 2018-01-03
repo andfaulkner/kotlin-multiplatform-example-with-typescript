@@ -736,6 +736,10 @@ kind-of@^4.0.0:
   dependencies:
     is-buffer "^1.1.5"
 
+kotlin@^1.2.10:
+  version "1.2.10"
+  resolved "https://registry.yarnpkg.com/kotlin/-/kotlin-1.2.10.tgz#004c6b318dcfec7aaccbe53e540addf402163633"
+
 latest-version@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/latest-version/-/latest-version-3.1.0.tgz#a205383fea322b33b5ae3b18abee0dc2f356ee15"
