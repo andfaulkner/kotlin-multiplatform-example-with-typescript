@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "build-kotlin": "./gradlew build",
+    "build-full": "npm run build-kotlin; npm run build-typescript; npm run run-js",
+    "build-typescript": "tsc",
+    "run-js": "node build-jvlns/src-js/build/js/index.js",
+    "start": "npm run build-full",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andfaulkner/kotlin-multiplatform-experiment.git"
+    "url": "git+https://github.com/andfaulkner/kotlin-multiplatform-example-with-typescript.git"
   },
   "keywords": [
     "kotlin",
@@ -27,9 +31,9 @@
   "author": "Andrew Faulkner <andfaulkenr@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andfaulkner/kotlin-multiplatform-experiment/issues"
+    "url": "https://github.com/andfaulkner/kotlin-multiplatform-example-with-typescript/issues"
   },
-  "homepage": "https://github.com/andfaulkner/kotlin-multiplatform-experiment#readme",
+  "homepage": "https://github.com/andfaulkner/kotlin-multiplatform-example-with-typescript#readme",
   "dependencies": {
     "kotlin": "^1.2.10",
     "lodash": "^4.17.4"
