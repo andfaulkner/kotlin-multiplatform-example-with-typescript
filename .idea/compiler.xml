@@ -8,6 +8,12 @@
       <module name="calculator-jvm_test" target="1.8" />
       <module name="calculator_main" target="1.8" />
       <module name="calculator_test" target="1.8" />
+      <module name="kotlin-multiplatform-example-with-typescript_main" target="1.8" />
+      <module name="kotlin-multiplatform-example-with-typescript_test" target="1.8" />
+      <module name="src-js_main" target="1.8" />
+      <module name="src-js_test" target="1.8" />
+      <module name="src-jvm_main" target="1.8" />
+      <module name="src-jvm_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
