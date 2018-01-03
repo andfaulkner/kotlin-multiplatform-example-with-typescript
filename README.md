@@ -5,8 +5,8 @@ Kotlin 1.2.* multi-platform experiments
 Locations
 =========
 Shared/multiplatform code: ./src
-JS-specific code: ./calculator-js
-Java-specific code: ./calculator-jvm
+JS-specific code: ./src-js
+Java-specific code: ./src-jvm
 Typescript code (consumes the JS-specific code's output): ./ts
 
 
@@ -60,7 +60,7 @@ How it works
 || [./src]                                          [./src-js]     ||
 || Common code ------------shared with------------> Kotlin-JS code ||
 ||                                                                 ||
-|| [./src-java]                                     [./src]        ||
+|| [./src-jvm]                                      [./src]        ||
 || Kotlin-Java code --implements requirements of--> Common code    ||
 ||                                                                 ||
 || [./src-js]                                       [./src]        ||

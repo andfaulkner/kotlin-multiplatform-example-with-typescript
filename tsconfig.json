@@ -16,11 +16,10 @@
         "removeComments": false,
         "sourceMap": true,
         "lib": ["ES2015", "ES2016", "ES2017"],
-        "outDir": "./build-jvlns",
+        "outDir": "./build-js",
         "skipLibCheck": true,
         "typeRoots": [
-            "./node_modules/@types",
-            "./js/typings/project-typings.d.ts"
+            "./node_modules/@types"
         ]
     },
     "include": [

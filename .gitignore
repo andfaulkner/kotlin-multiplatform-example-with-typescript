@@ -3,7 +3,7 @@
 .DS_Store
 Thumbs.db
 build/
-build-jvlns/
+build-js/
 /captures
 */signing.properties
 *.iml

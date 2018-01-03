@@ -6,9 +6,9 @@
   "scripts": {
     "build-kotlin": "./gradlew build",
     "build-full": "npm run build-kotlin; npm run build-typescript;",
-    "buildrun-full": "npm run run-js",
+    "buildrun-full": "npm run build-full; npm run run-js",
     "build-typescript": "tsc",
-    "run-js": "node build-jvlns/ts",
+    "run-js": "node build-js/ts",
     "start": "npm run buildrun-full",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch-buildrun-full": "nodemon --ext kt,ts,tsx,js,jsx --watch './src' --watch './src-js' --watch './ts' --exec 'npm run buildrun-full'"
