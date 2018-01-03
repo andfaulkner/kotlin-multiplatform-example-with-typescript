@@ -1,4 +1,4 @@
-# kotlin-multiplatform-experiment
+# kotlin-multiplatform-example-with-typescript
 Kotlin 1.2.* multi-platform experiments
 
 Locations
@@ -12,3 +12,6 @@ To build
 Run in terminal:
     ./gradlew build
 
+OR
+
+    npm run build-kotlin
