@@ -1,5 +1,5 @@
-const kotlin = require('kotlin') as {collections: {HashMap: any}};
-// import * as javelinWrapperImport from '../build/js/index';
+const kotlin = require('kotlin');
 
-import '../src-js/build/classes/main/src-js';
+import * as srcJsOutput from '../src-js/build/js/index';
 
+console.log(srcJsOutput);
