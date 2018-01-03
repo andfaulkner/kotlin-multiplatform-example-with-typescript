@@ -1,0 +1,32 @@
+{
+  "name": "kotlin-multiplatform-experiment",
+  "version": "0.0.1",
+  "description": "Experiments getting kotlin multiplatform code working - with JS prioritized first",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andfaulkner/kotlin-multiplatform-experiment.git"
+  },
+  "keywords": [
+    "kotlin",
+    "multiplatform",
+    "multi-platform",
+    "java",
+    "ts",
+    "typescript",
+    "isomorphic",
+    "jvm",
+    "android",
+    "react",
+    "react-native"
+  ],
+  "author": "Andrew Faulkner <andfaulkenr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andfaulkner/kotlin-multiplatform-experiment/issues"
+  },
+  "homepage": "https://github.com/andfaulkner/kotlin-multiplatform-experiment#readme"
+}
