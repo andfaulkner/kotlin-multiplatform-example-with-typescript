@@ -1,11 +1,13 @@
 # kotlin-multiplatform-example-with-typescript
 Kotlin 1.2.* multi-platform experiments
 
+
 Locations
 =========
 Shared: ./src
 JS: ./calculator-js
 Java: ./calculator-jvm
+
 
 Installation
 ============
@@ -17,9 +19,10 @@ Perform your initial build:
 
     npm run start
 
+
 Build and run
 =============
-To build start->end, then run the module:
+## To build start->end, then run the module:
 
     npm run start
 
@@ -27,20 +30,20 @@ To build start->end, then run the module:
 
     npm run build-full
 
-To just perform the Kotlin build:
+## To just perform the Kotlin build:
     ./gradlew build
 
-OR
+...OR:
 
     npm run build-kotlin
 
-To perform only the Typescript build:
+## To perform only the Typescript build:
 
     npm run build-typescript
 
-To run the JS code:
+## To run the (fully built) JS code:
 
-    npm run 
+    npm run run-js
 
 Links
 =====
