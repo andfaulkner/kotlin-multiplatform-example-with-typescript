@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "build-kotlin": "./gradlew build",
-    "build-full": "npm run build-kotlin; npm run build-typescript; npm run run-js",
+    "build-full": "npm run build-kotlin; npm run build-typescript;",
+    "buildrun-full": "npm run run-js",
     "build-typescript": "tsc",
     "run-js": "node build-jvlns/ts",
-    "start": "npm run build-full",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run buildrun-full",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-buildrun-full": "nodemon --ext kt,ts,tsx,js,jsx --watch './src' --watch './src-js' --watch './ts' --exec 'npm run buildrun-full'"
   },
   "repository": {
     "type": "git",
