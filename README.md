@@ -23,7 +23,7 @@ Perform your initial build:
 
 Build and run
 =============
-## To build start->end then immediately run the module:
+### To build start->end then immediately run the module:
 
     npm run start
 
@@ -31,22 +31,22 @@ Build and run
 
     npm run buildrun-full
 
-## To just perform the Kotlin build:
+### To just perform the Kotlin build:
     ./gradlew build
 
 ...OR:
 
     npm run build-kotlin
 
-## To perform only the Typescript build:
+### To perform only the Typescript build:
 
     npm run build-typescript
 
-## To run the (fully built) JS code:
+### To run the (fully built) JS code:
 
     npm run run-js
 
-## To watch the kotlin-js, kotlin-shared, & typescript dirs, and rebuild on code change:
+### To watch the kotlin-js, kotlin-shared, & typescript dirs, and rebuild on code change:
 
     npm run watch-buildrun-full
 
