@@ -28,5 +28,5 @@ actual fun log(msg: String) = console.log(msg)
  */
 @JsName("main")
 fun main(args: Array<String>) {
-    log('Calculator.kt: function main ran! (automatically on module import)')
+    log("Calculator.kt: function main ran! (automatically on module import)")
 }
