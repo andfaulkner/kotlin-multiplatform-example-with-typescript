@@ -88,4 +88,4 @@ How it works
 
 Links
 =====
-[Much thanks to this vividcode tutorial for getting me started](https://vividcode.io/Kotlin-1-2-Multiplatform-Projects/)
+[Much thanks to this tutorial for getting this started](https://vividcode.io/Kotlin-1-2-Multiplatform-Projects/)
