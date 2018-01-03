@@ -56,12 +56,16 @@ How it works
 ```
   ==================================================
  // Multiplatform library/module written in Kotlin \\
-||=================================================================
-|| [./src-js]                                     [./src]        ||
-|| Kotlin-JS code --implements requirements of--> Common code    ||
-||                                                               ||
-||    Common code ---------shared with----------> Kotlin-JS code ||
-===================================================================
+||===================================================================
+|| [./src]                                          [./src-js]     ||
+|| Common code ------------shared with------------> Kotlin-JS code ||
+||                                                                 ||
+|| [./src-java]                                     [./src]        ||
+|| Kotlin-Java code --implements requirements of--> Common code    ||
+||                                                                 ||
+|| [./src-js]                                       [./src]        ||
+|| Kotlin-JS code ---implements requirements- of--> Common code    ||
+=====================================================================
              /\                                  /\
              ||                                  ||
      [consumes/imports]                  [consumes/imports]
@@ -69,7 +73,7 @@ How it works
         =============             ================================
         || [./ts]  ||             || [./java] (not implemented) ||
         || TS code ||             || Runnable Java code         ||
-        =============             ================================
+        =============             ================================ [1]
              ||                                  ||
        [transpiles to]                           \/
              ||                            Displays output
@@ -83,6 +87,9 @@ How it works
        Displays output 
 
  -------------JS-------------    ---------------Java---------------
+
+[1] Different code from the Kotlin-Java code mentioned in the multiplatform
+    library/module block at the top of the diagram
 ```
 
 
