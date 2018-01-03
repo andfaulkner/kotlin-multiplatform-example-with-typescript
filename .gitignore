@@ -7,8 +7,8 @@ build-jvlns/
 /captures
 */signing.properties
 *.iml
-.idea/libraries
-.idea/shelf
+# .idea/libraries
+# .idea/shelf
 app.xml
 gradle.xml
 misc.xml
