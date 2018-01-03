@@ -1,0 +1,42 @@
+{
+    "version": "2.6.1",
+    "compilerOptions": {
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "target": "es5",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "noImplicitAny": false,
+        "preserveConstEnums": true,
+        "declaration": true,
+        "pretty": false,
+        "removeComments": false,
+        "sourceMap": true,
+        "lib": ["ES2015", "ES2016", "ES2017"],
+        "outDir": "./build-jvlns",
+        "skipLibCheck": true,
+        "typeRoots": [
+            "./node_modules/@types",
+            "./js/typings/project-typings.d.ts"
+        ]
+    },
+    "include": [
+        "./js/*.ts",
+        "./js/**/*.ts",
+        "./js/setup/extend-kotlin-array.ts",
+        "./js/typings/project-typings.d.ts",
+        "./node_modules/@types/**/*.d.ts",
+        "./node_modules/typescript/lib/lib.es6.d.ts",
+        "./node_modules/typescript/lib/lib.es2016.d.ts",
+        "./node_modules/typescript/lib/lib.es2017.d.ts",
+        "./node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+        "./*.ts"
+    ],
+    "exclude": [
+        "*.json",
+        "*.kjsm"
+    ]
+}
