@@ -7,14 +7,40 @@ Shared: ./src
 JS: ./calculator-js
 Java: ./calculator-jvm
 
-To build
-========
-Run in terminal:
+Installation
+============
+Install modules:
+
+    yarn
+
+Perform your initial build:
+
+    npm run start
+
+Build and run
+=============
+To build start->end, then run the module:
+
+    npm run start
+
+...OR:
+
+    npm run build-full
+
+To just perform the Kotlin build:
     ./gradlew build
 
 OR
 
     npm run build-kotlin
+
+To perform only the Typescript build:
+
+    npm run build-typescript
+
+To run the JS code:
+
+    npm run 
 
 Links
 =====
