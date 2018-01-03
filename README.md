@@ -64,7 +64,7 @@ How it works
 ===================================================================
              /\                                  /\
              ||                                  ||
-      [consumes/imports]                 [consumes/imports]
+     [consumes/imports]                  [consumes/imports]
              ||                                  ||
         =============             ================================
         || [./ts]  ||             || [./java] (not implemented) ||
