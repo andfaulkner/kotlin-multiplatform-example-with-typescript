@@ -1,0 +1,3 @@
+rootProject.name = 'calculator'
+
+include 'calculator-jvm', 'calculator-js'
