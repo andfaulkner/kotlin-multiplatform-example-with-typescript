@@ -1,5 +1,5 @@
 {
-    "version": "2.6.1",
+    "version": "2.6.2",
     "compilerOptions": {
         "module": "CommonJS",
         "moduleResolution": "node",
@@ -11,7 +11,7 @@
         "jsx": "react",
         "noImplicitAny": false,
         "preserveConstEnums": true,
-        "declaration": true,
+        "declaration": false,
         "pretty": false,
         "removeComments": false,
         "sourceMap": true,
@@ -33,7 +33,9 @@
         "./node_modules/typescript/lib/lib.es2016.d.ts",
         "./node_modules/typescript/lib/lib.es2017.d.ts",
         "./node_modules/typescript/lib/lib.es2015.symbol.d.ts",
-        "./*.ts"
+        "./*.ts",
+        "./ts/*.ts",
+        "./ts/**/*.ts"
     ],
     "exclude": [
         "*.json",
