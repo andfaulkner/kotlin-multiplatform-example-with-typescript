@@ -1,5 +1,5 @@
 {
-  "name": "kotlin-multiplatform-experiment",
+  "name": "kotlin-multiplatform-example-with-typescript",
   "version": "0.0.1",
   "description": "Experiments getting kotlin multiplatform code working - with JS prioritized first",
   "main": "index.js",
