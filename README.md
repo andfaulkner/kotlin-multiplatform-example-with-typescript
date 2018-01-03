@@ -23,13 +23,13 @@ Perform your initial build:
 
 Build and run
 =============
-## To build start->end, then run the module:
+## To build start->end then immediately run the module:
 
     npm run start
 
 ...OR:
 
-    npm run build-full
+    npm run buildrun-full
 
 ## To just perform the Kotlin build:
     ./gradlew build
@@ -46,12 +46,16 @@ Build and run
 
     npm run run-js
 
+## To watch the kotlin-js, kotlin-shared, & typescript dirs, and rebuild on code change:
+
+    npm run watch-buildrun-full
+
 
 How it works
 ============
 ```
-  ====================================
- // Library/module written in Kotlin \\
+  ==================================================
+ // Multiplatform library/module written in Kotlin \\
 ||=================================================================
 || [./src-js]                                     [./src]        ||
 || Kotlin-JS code --implements requirements of--> Common code    ||
@@ -80,6 +84,7 @@ How it works
 
  -------------JS-------------    ---------------Java---------------
 ```
+
 
 Links
 =====
