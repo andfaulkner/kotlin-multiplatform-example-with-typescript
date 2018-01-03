@@ -4,6 +4,7 @@
   "description": "Experiments getting kotlin multiplatform code working - with JS prioritized first",
   "main": "index.js",
   "scripts": {
+    "build-kotlin": "./gradlew build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,5 +29,12 @@
   "bugs": {
     "url": "https://github.com/andfaulkner/kotlin-multiplatform-experiment/issues"
   },
-  "homepage": "https://github.com/andfaulkner/kotlin-multiplatform-experiment#readme"
+  "homepage": "https://github.com/andfaulkner/kotlin-multiplatform-experiment#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.7",
+    "typescript": "^2.6.2"
+  }
 }
