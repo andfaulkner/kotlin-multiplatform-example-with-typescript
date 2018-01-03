@@ -4,9 +4,10 @@ Kotlin 1.2.* multi-platform experiments
 
 Locations
 =========
-Shared: ./src
-JS: ./calculator-js
-Java: ./calculator-jvm
+Shared/multiplatform code: ./src
+JS-specific code: ./calculator-js
+Java-specific code: ./calculator-jvm
+Typescript code (consumes the JS-specific code's output): ./ts
 
 
 Installation
@@ -44,6 +45,41 @@ Build and run
 ## To run the (fully built) JS code:
 
     npm run run-js
+
+
+How it works
+============
+```
+  ====================================
+ // Library/module written in Kotlin \\
+||=================================================================
+|| [./src-js]                                     [./src]        ||
+|| Kotlin-JS code --implements requirements of--> Common code    ||
+||                                                               ||
+||    Common code ---------shared with----------> Kotlin-JS code ||
+===================================================================
+             /\                                  /\
+             ||                                  ||
+      [consumes/imports]                 [consumes/imports]
+             ||                                  ||
+        =============             ================================
+        || [./ts]  ||             || [./java] (not implemented) ||
+        || TS code ||             || Runnable Java code         ||
+        =============             ================================
+             ||                                  ||
+       [transpiles to]                           \/
+             ||                            Displays output
+             \/
+  =========================
+  || [./src-js/build/js] ||
+  || Runnable JS code    ||
+  =========================
+             ||
+             \/
+       Displays output 
+
+ -------------JS-------------    ---------------Java---------------
+```
 
 Links
 =====
