@@ -15,6 +15,14 @@ repositories {
     mavenCentral()
 }
 
+compileKotlin2Js.kotlinOptions {
+    // Output
+    outputFile = "${projectDir}/build/js/index.js"
+    // Required to work with node.
+    moduleKind = "commonjs"
+    //    sourceMap = true
+}
+
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-js:$kotlin_version"
     expectedBy project(":")
