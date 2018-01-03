@@ -14,4 +14,13 @@ object Calculator {
         log("subtract -> $x $y")
         return x - y
     }
+    fun multiply(x: Int, y: Int): Int {
+        log("multiply -> $x $y")
+        return x * y
+    }
+    fun runExperiments(): Unit {
+        add(1, 2)
+        subtract(1, 2)
+        multiply(5, 12)
+    }
 }
