@@ -7,7 +7,7 @@
     "build-kotlin": "./gradlew build",
     "build-full": "npm run build-kotlin; npm run build-typescript; npm run run-js",
     "build-typescript": "tsc",
-    "run-js": "node build-jvlns/src-js/build/js/index.js",
+    "run-js": "node build-jvlns/ts",
     "start": "npm run build-full",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
